@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huzaifa - Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <nav>
+        <div class="left">Huzaifa's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project-section">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home">
+      <div id="home-main">
+        Hi, My name is <span id="purple">Huzaifa</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./image/profile-img.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a Front-End Developer, and I am in the early years of my career. I have always been passionate about
+              web development and am currently working on improving my skills in this field. During my career journey, I
+              have had the opportunity to work on various projects, each of which has contributed significantly to my
+              learning experience. My Front-End Development skills include the following:
+              HTML/CSS: I am proficient in HTML and CSS, and I can use media queries for responsive web design.
+              JavaScript: I have embraced JavaScript and am working at an intermediate level.
+              Front-End Frameworks: I have a basic understanding of popular Front-End frameworks such as Angular and
+              React.
+              Version Control: I am comfortable working with Git and GitHub.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </section>
+    <section id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front-End Development</h2>
+            <p>Builds the front-end portion of websites and web applications the part users see and interact
+              with.</p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-wordpress"></i>
+            <h2>WordPress Development</h2>
+            <p>Responsible for both back-end and front-end development, including creating WordPress themes and
+              plugins.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa">&#xf641</i>
+            <h2>Digital Marketing</h2>
+            <p>Digital marketing is responsible for ensuring that the website easily reaches its target
+              audience. This also includes optimizing the site structure.</p>
+            <a href="#">Learn more</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-section">
+        <div class="work-list">
+          <div class="work">
+            <img src="./image/project1.png">
+            <div class="layer">
+              <h3>landing page of a Resturant</h3>
+              <p>A simple landing page of a Resturant using HTML5,CSS3,JS. </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+
+          </div>
+
+          <div class="work">
+            <img src="./image/project2.png">
+            <div class="layer">
+              <h3>A simple main page of Resturant</h3>
+              <p>To see menu , order online</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>huzaifaahmed90000@gmail.com@gmail.com</p>
+            <p> <i class="fa-solid fa-square-phone"></i>+9203118529176</p>
+            <div class="social-icons">
+              <a href="linkedin.com/in/hafiz-huzaifa-ahmed-2b989b283"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/hafizhuzaifaahmed"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="./resources/my resume - 2023-09-12 22-17-42_2.pdf" download class="btn btn2">Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="Email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <div class="copyright">
+      <p>Copyright &copy; Hafiz Huzaifa Ahmed. All rights reserved </p>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/e5dd437fd0.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Engineer', 'Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
